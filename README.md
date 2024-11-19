@@ -1,4 +1,3 @@
-
 # RabbitMQ Producer and Consumer
 
 ## Install
@@ -20,5 +19,7 @@ python3 producer.py
 python3 consumer.py
 ```
 
-## RabbitMQ Dashboard
+## RabbitMQ Management
+`<link>` : <http://localhost:15672/>
+
 ![](https://raw.githubusercontent.com/froyzan/RabbitMQ/refs/heads/main/rabbitmq.jpg)
