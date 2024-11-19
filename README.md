@@ -1,14 +1,24 @@
-RabbitMQ Producer and Consumer
 
-Перед началом убедитесь, что у вас установлены:
+# RabbitMQ Producer and Consumer
+
+## Install
 - Python 3.x
 - Docker
 - Docker Compose
+- Pika
 
-├── consumer.py      # Скрипт для получения сообщений из RabbitMQ
-├── producer.py      # Скрипт для отправки сообщений в RabbitMQ
-└── docker-compose.yml # Конфигурация Docker Compose для RabbitMQ
+| Name      | Description |
+| :-------------------- |:-------------|
+| docker-compose.yml    | Конфигурация Docker Compose       |
+| producer.py           | Скрипт для отправки сообщений     |
+| consumer.py           | Скрипт для получения сообщений    |
 
-pip install pika
+## Usage/Запуск
+```bash
+docker-compose up -d
 python3 producer.py
 python3 consumer.py
+```
+
+## RabbitMQ Dashboard
+![](https://raw.githubusercontent.com/froyzan/RabbitMQ/refs/heads/main/rabbitmq.jpg)
