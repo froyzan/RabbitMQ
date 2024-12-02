@@ -21,5 +21,7 @@ python3 consumer.py
 
 ## RabbitMQ Management
 `<link>` : <http://localhost:15672/>
+Username: guest 
+Password: guest
 
-![](https://raw.githubusercontent.com/froyzan/RabbitMQ/refs/heads/main/rabbitmq.jpg)
+![RabbitMq Manage](rabbitmq.jpg)
