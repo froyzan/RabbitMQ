@@ -1,7 +1,8 @@
 import pika
 import json
 
-conn_vars = pika.ConnectionParameters(host='localhost')
+credentials = pika.PlainCredentials('guest', 'guest')
+conn_vars = pika.ConnectionParameters(host='127.0.0.1', port='5672', credentials=credentials)
 
 # Устанавливаем соединение с RabbitMQ с использованием менеджера контекста
 def callback(ch, method, properties, body):
