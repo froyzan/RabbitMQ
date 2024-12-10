@@ -20,10 +20,9 @@ python3 consumer.py
 ```
 
 ## RabbitMQ Management
-```html
 `<link>` : <http://localhost:15672/>
+```html
 Username: guest 
 Password: guest
 ```
-
 ![RabbitMq Manage](rabbitmq.jpg)
