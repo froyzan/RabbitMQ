@@ -20,9 +20,18 @@ python3 consumer.py
 ```
 
 ## RabbitMQ Management
-`<link>` : <http://localhost:15672/>
+### Docker-compose
+`docker-compose` : <http://localhost:15672/>
 ```html
 Username: guest 
 Password: guest
 ```
+
+### Kubernetes
+`<link>` : <http://localhost:15672/>
+```html
+Username: user 
+Password: password
+```
+
 ![RabbitMq Manage](rabbitmq.jpg)

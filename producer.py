@@ -2,10 +2,11 @@ import pika
 import json
 
 # Создаем сообщение
-message = {'id': 1, 'name': 'Vova'}
+message = {'id': 1, 'name': 'John'}
 message_body = json.dumps(message)  # Сериализуем сообщение в JSON
 
-conn_vars = pika.ConnectionParameters(host='localhost')
+credentials = pika.PlainCredentials('user', 'password')
+conn_vars = pika.ConnectionParameters(host='127.0.0.1', port='31132', credentials=credentials)
 
 # Устанавливаем соединение с RabbitMQ с использованием менеджера контекста
 with pika.BlockingConnection(conn_vars) as connection:
