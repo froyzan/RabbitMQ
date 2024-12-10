@@ -28,7 +28,7 @@ Password: guest
 ```
 
 ### Kubernetes
-`<link>` : <http://localhost:15672/>
+`kubernetes` : <http://localhost:30672/>
 ```html
 Username: user 
 Password: password
