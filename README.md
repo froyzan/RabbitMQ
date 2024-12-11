@@ -28,6 +28,10 @@ Password: guest
 ```
 
 ### Kubernetes
+```bash
+kubectl apply -f rabbitmq-deployment.yaml
+```
+
 `kubernetes` : <http://localhost:30672/>
 ```html
 Username: user 
